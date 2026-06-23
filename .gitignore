@@ -18,3 +18,9 @@ package-lock.json
 
 # Ignore folders related to IDEs
 .vscode/
+
+# OpenSpec
+openspec/
+
+# Claude Code
+.claude/
