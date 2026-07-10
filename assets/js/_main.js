@@ -139,4 +139,7 @@ $(document).ready(function () {
     preventDefault: false,
   });
 
+  // Open external links in a new tab
+  $("a[href^='http']").not("[href*='" + location.hostname + "']").attr({ target: "_blank", rel: "noopener noreferrer" });
+
 });
