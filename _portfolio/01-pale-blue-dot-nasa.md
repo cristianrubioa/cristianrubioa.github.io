@@ -9,8 +9,6 @@ date: 2024-01-15
 
 **Honorable Mention** from NASA, UNVIE, and UNOOSA for creating a compelling visualization using Earth observation data to advance UN Sustainable Development Goal 13: Climate Action.
 
-## Project Description
-
 Annual climate trends visualization in Los Glaciares National Park, Argentina (2013-2024) revealing:
 - **Rising temperatures:** Positive slope in surface temperature trends
 - **Diminishing snow cover:** Decreasing percentage indicating climate change impact
@@ -26,6 +24,10 @@ The visualization demonstrates the tangible effects of climate change on glacial
 - ROI-based analysis using GIS shapefiles
 - Temporal trend analysis across 11 years of data
 
+## Impact
+
+Contributes to understanding climate change effects on glacial ecosystems and supports UN SDG 13: Climate Action by providing visual evidence of environmental transformation over time.
+
 ## Technologies Used
 
 - **[Python 3.10+](https://www.python.org/)**
@@ -34,10 +36,6 @@ The visualization demonstrates the tangible effects of climate change on glacial
 - **[Matplotlib](https://matplotlib.org/)** (visualization)
 - **[Jupyter Notebook](https://jupyter.org/)** (interactive analysis)
 - **[Landsat 8/9 Collection-2 Level-2](https://www.usgs.gov/landsat-missions/landsat-collection-2-level-2-science-products)** (USGS EarthExplorer)
-
-## Impact
-
-Contributes to understanding climate change effects on glacial ecosystems and supports UN SDG 13: Climate Action by providing visual evidence of environmental transformation over time.
 
 ## Recognition
 
@@ -49,6 +47,6 @@ Contributes to understanding climate change effects on glacial ecosystems and su
 - **Challenge:** [DrivenData Competition](https://www.drivendata.org/competitions/256/pale-blue-dot/)
 - **License:** MIT
 
-## Contributors
+## Acknowledgements
 
 - [Alejandro Zambrano](https://github.com/Alejandro-ZZ)

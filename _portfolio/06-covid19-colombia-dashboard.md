@@ -9,8 +9,6 @@ date: 2020-07-06
 
 Desktop application developed at Universidad de Ibagué as a research response to the COVID-19 pandemic, providing comprehensive data analysis and visualization tools for tracking the virus spread across Colombia.
 
-## Project Description
-
 A local, practical solution for analyzing COVID-19 cases in Colombia with real-time data from the National Institute of Health (INS). The application enables:
 
 - **Data retrieval:** Total, recovered, and deceased cases by departments and municipalities
@@ -28,6 +26,10 @@ A local, practical solution for analyzing COVID-19 cases in Colombia with real-t
 - Comparative model analysis for outbreak prediction
 - Standalone desktop application (no internet required after data download)
 
+## Impact
+
+Provided researchers, health professionals, and the public with accessible tools to understand and track COVID-19's impact across Colombian regions during the pandemic.
+
 ## Technologies Used
 
 - **[MATLAB](https://www.mathworks.com/products/matlab.html)**
@@ -35,10 +37,6 @@ A local, practical solution for analyzing COVID-19 cases in Colombia with real-t
 - **Geospatial Analysis Tools**
 - **Statistical Modeling**
 - **Data Visualization**
-
-## Impact
-
-Provided researchers, health professionals, and the public with accessible tools to understand and track COVID-19's impact across Colombian regions during the pandemic.
 
 ## Links
 
@@ -50,4 +48,3 @@ Provided researchers, health professionals, and the public with accessible tools
 
 - **Jose A. Fernández Gallego** - Project Director and Coordinator
 - **Universidad de Ibagué** - Research support
-

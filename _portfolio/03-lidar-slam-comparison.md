@@ -9,8 +9,6 @@ date: 2021-12-13
 
 Open-source implementation and comprehensive comparison of three state-of-the-art LiDAR SLAM algorithms using the complete KITTI dataset. This project addresses the computational challenges of real-time 3D mapping with high data-rate laser scanners.
 
-## Project Description
-
 Benchmarking of LiDAR Odometry and Mapping (LOAM) derivatives for autonomous navigation:
 - **A-LOAM:** Advanced LiDAR Odometry and Mapping
 - **FLOAM** Fast LOAM
@@ -27,12 +25,9 @@ Evaluated across 11 KITTI sequences (00-10) covering urban, highway, and country
 - Visualization tools for trajectory and map generation
 - Ready-to-use launch scripts for reproducibility
 
-## Evaluation Metrics
+## Impact
 
-- **Computational Cost:** Processing time and resource usage
-- **Absolute Trajectory Error (ATE):** Overall positioning accuracy
-- **Relative Pose Error (RPE):** Frame-to-frame consistency
-- **Robustness:** Performance across diverse environments (urban, highway, country)
+Provides robotics researchers and practitioners with empirical data to select the most appropriate SLAM algorithm for their specific applications, balancing accuracy and computational efficiency.
 
 ## Technologies Used
 
@@ -43,9 +38,12 @@ Evaluated across 11 KITTI sequences (00-10) covering urban, highway, and country
 - **[KITTI Dataset](http://www.cvlibs.net/datasets/kitti/)**
 - **C++/Python**
 
-## Impact
+## Evaluation Metrics
 
-Provides robotics researchers and practitioners with empirical data to select the most appropriate SLAM algorithm for their specific applications, balancing accuracy and computational efficiency.
+- **Computational Cost:** Processing time and resource usage
+- **Absolute Trajectory Error (ATE):** Overall positioning accuracy
+- **Relative Pose Error (RPE):** Frame-to-frame consistency
+- **Robustness:** Performance across diverse environments (urban, highway, country)
 
 ## Publication
 
@@ -55,8 +53,7 @@ Provides robotics researchers and practitioners with empirical data to select th
 
 - **GitHub Repository:** [https://github.com/HaroldMurcia/LOaM-comparison](https://github.com/HaroldMurcia/LOaM-comparison)
 - **IEEE Xplore:** [https://ieeexplore.ieee.org/document/9633299](https://ieeexplore.ieee.org/document/9633299)
-- **Demo Video:** [A-LOAM Demonstration](https://youtu.be/demo-link)
 
-## Acknowledgement
+## Acknowledgements
 
 This work was supported by Universidad de Ibagué under research project 19-489-INT.

@@ -16,6 +16,10 @@ date: 2024-11-01
 - **Multi-Profile Support:** Configure and switch between different Ubidots accounts/environments
 - **Automation Ready:** Script-friendly for CI/CD pipelines and DevOps workflows
 
+## Impact
+
+This tool has helped developers worldwide streamline their Ubidots workflows, reducing manual operations and enabling better automation practices in IoT development.
+
 ## Technologies Used
 
 - **[Python 3.12+](https://www.python.org/)**
@@ -37,12 +41,8 @@ date: 2024-11-01
 pip install ubidots-cli
 ```
 
-## Impact
-
-This tool has helped developers worldwide streamline their Ubidots workflows, reducing manual operations and enabling better automation practices in IoT development.
-
 ## Links
 
+- **GitHub Repository:** [https://github.com/ubidots/ubidots-cli](https://github.com/ubidots/ubidots-cli)
 - **PyPI Package:** [https://pypi.org/project/ubidots-cli/](https://pypi.org/project/ubidots-cli/)
 - **Documentation:** Available on PyPI
-- **License:** Open Source
