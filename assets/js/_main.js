@@ -139,7 +139,9 @@ $(document).ready(function () {
     preventDefault: false,
   });
 
-  // Open external links in a new tab
-  $("a[href^='http']").not("[href*='" + location.hostname + "']").attr({ target: "_blank", rel: "noopener noreferrer" });
+  // Open external links in a new tab (exact hostname match, so subdomains like erdos.crubio.fyi count as external)
+  $("a[href^='http']").filter(function () {
+    return this.hostname !== location.hostname;
+  }).attr({ target: "_blank", rel: "noopener noreferrer" });
 
 });
